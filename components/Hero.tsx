@@ -35,7 +35,8 @@ function Hero() {
           />
 
           <p className="text-center md:tracking-wider mt-4 mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I&apos;m Divyansh, a Web Developer and Designer based in India.
+            Hi, I&apos;m Divyansh, aspiring Web Developer and Designer based in
+            India.
           </p>
 
           <a href="#about">
