@@ -8,12 +8,13 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title:
+      "I'm passionate about web development, with a strong focus on creativity.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/laptopblue.png",
     spareImg: "",
   },
   {
@@ -49,7 +50,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building a Spotify Clone",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -74,32 +75,32 @@ export const projects = [
     id: 1,
     title: "Airbnb-Clone",
     des: "Discover your perfect escape with our Airbnb clone. Effortlessly search and book unique accommodations worldwide.",
-    img: "/airbnb.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://coolbnb-clone-bay-one-21.vercel.app/",
+    img: "/airbnbpng.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/mongo.png", "/prisma.png"],
+    link: "https://video-rent-example-tawny.vercel.app/",
   },
   {
     id: 2,
     title: "Shopping Mart Management System",
     des: "Dive into the world of retail efficiency with our intuitive Shopping Mart Management System built using Python's Tkinter.",
     img: "/shop.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    iconLists: ["/python.png"],
     link: "https://github.com/Divyansh1316/Mini-Project",
   },
   {
     id: 3,
-    title: "Simon Game",
-    des: "Challenge your memory and reflexes in this classic Simon game built with JavaScript. Match the flashing colors in the correct order to advance to higher levels.",
-    img: "/simon.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://divyansh1316.github.io/Simon-Game/",
+    title: "Stock Market Prediction",
+    des: "Explore this stock market prediction system developed with machine learning algorithms. Analyze historical data to forecast stock prices and trends.",
+    img: "/stock.svg",
+    iconLists: ["/python.png", "/collab.png"],
+    link: "https://colab.research.google.com/drive/1iW0HrqzF9RZRst0Zhz_EgPoSHshOGlXL#scrollTo=yGSX6K35SbNW",
   },
   {
     id: 4,
     title: "Google Drive Clone",
     des: "Organize and access your files effortlessly with this sleek, Material Design-inspired Google Drive clone.",
     img: "/gdrive.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: ["/html.png", "/css.png"],
     link: "https://divyansh1316.github.io/Google-Drive-Clone/",
   },
 ];
@@ -209,7 +210,7 @@ export const socialMedia = [
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/behance.png",
     url: "https://www.behance.net/gallery/151888659/Portfolio-Images-only",
   },
   {
