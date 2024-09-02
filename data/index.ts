@@ -74,7 +74,7 @@ export const projects = [
   {
     id: 1,
     title: "Airbnb-Clone",
-    des: "Discover your perfect escape with our Airbnb clone. Effortlessly search and book unique accommodations worldwide.",
+    des: "Discover your perfect escape with our Airbnb clone. Effortlessly search and book accomodations worldwide.",
     img: "/airbnbpng.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/mongo.png", "/prisma.png"],
     link: "https://video-rent-example-tawny.vercel.app/",
@@ -82,7 +82,7 @@ export const projects = [
   {
     id: 2,
     title: "Shopping Mart Management System",
-    des: "Dive into the world of retail efficiency with our intuitive Shopping Mart Management System built using Python's Tkinter.",
+    des: "Dive into the world of retail efficiency with my Shopping Mart Management System built using Python's Tkinter.",
     img: "/shop.svg",
     iconLists: ["/python.png"],
     link: "https://github.com/Divyansh1316/Mini-Project",
@@ -90,7 +90,7 @@ export const projects = [
   {
     id: 3,
     title: "Stock Market Prediction",
-    des: "Explore this stock market prediction system developed with machine learning algorithms. Analyze historical data to forecast stock prices and trends.",
+    des: "Explore this ML-based stock market prediction system to forecast prices and trends from historical data.",
     img: "/stock.svg",
     iconLists: ["/python.png", "/collab.png"],
     link: "https://colab.research.google.com/drive/1iW0HrqzF9RZRst0Zhz_EgPoSHshOGlXL#scrollTo=yGSX6K35SbNW",
