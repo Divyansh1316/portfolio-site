@@ -97,11 +97,11 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Google Drive Clone",
-    des: "Organize and access your files effortlessly with this sleek, Material Design-inspired Google Drive clone.",
-    img: "/gdrive.svg",
-    iconLists: ["/html.png", "/css.png"],
-    link: "https://divyansh1316.github.io/Google-Drive-Clone/",
+    title: "Ecommerce Website",
+    des: " Explore and shop products with ease in this full-stack eCommerce platform featuring variant selection, smart filtering, and payment gateway integration.",
+    img: "/forever.png",
+    iconLists: ["/re.svg", "/tail.svg", "/js.png", "/mongo.png"],
+    link: "https://forever-clone-frontend.onrender.com/",
   },
 ];
 
