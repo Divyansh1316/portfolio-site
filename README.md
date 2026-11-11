@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+﻿# Divyansh Dhaundiyal — Portfolio
 
-## Getting Started
+A responsive, single-page portfolio built with Next.js. It presents selected projects, skills, education and experience, and contact links in a dark layout with lime accents, subtle starfield styling, scroll reveals, and a collapsible Spotify playlist embed.
 
-First, run the development server:
+## Requirements
 
-```bash
+- Node.js 24 (the exact local baseline is pinned in `.nvmrc` and `.node-version`)
+- npm and the committed `package-lock.json`
+
+## Run locally
+
+```sh
+nvm use
+npm ci
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open <http://localhost:3000>. `npm ci` installs the exact dependency graph recorded in the npm lockfile.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Validate and run
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```sh
+npm run lint
+npm run build
+npm start
+```
 
-## Learn More
+`npm start` serves the production build. Use Node.js 24 in deployment to match the project engine and version files. The app does not need a database, application API, or environment secrets. The Spotify player loads its playlist from Spotify, so playback availability and account behavior are controlled by Spotify and the visitor's browser.
 
-To learn more about Next.js, take a look at the following resources:
+## Project notes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `app/page.tsx` contains the portfolio sections and their content.
+- `app/globals.css` contains the responsive visual system and animations.
+- `components/` contains the email copy button, music player, scroll effects, and shooting star.
+- `public/` contains project preview images.
+- `PROJECT_TECHNICAL_OVERVIEW.md` explains the architecture and implementation in more detail.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+The Stitch export in `stitch_divyansh_dhaundiyal_portfolio_website/` is a local design reference; it is not required to install, build, or run the site and is not included in the GitHub project.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The app sends baseline browser security headers from `next.config.mjs`. External project and social links that open new tabs use `noopener noreferrer`. The email copy button uses the Clipboard API where available and falls back to an email link.
