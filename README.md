@@ -1,6 +1,17 @@
 ﻿# Divyansh Dhaundiyal — Portfolio
 
-A responsive, single-page portfolio built with Next.js. It presents selected projects, skills, education and experience, and contact links in a dark layout with lime accents, subtle starfield styling, scroll reveals, and a collapsible Spotify playlist embed.
+A responsive, single-page portfolio built with Next.js, React, and TypeScript. The site introduces Divyansh's full-stack development work through a dark visual style, lime accents, a subtle animated starfield, and a floating glass-style navigation bar.
+
+## What the site includes
+
+- **Hero:** a short introduction, work and contact links, and three development highlights.
+- **About:** a brief background, focus areas in web and backend development, and summary cards.
+- **Selected work:** project cards for an Airbnb-style booking app, an e-commerce website, and an AI agent platform. Each card includes a preview image, a short description, and its main technologies.
+- **Skills:** grouped cards for frontend, backend, databases, core programming, software foundations, and AI tools, along with two scrolling technology lists.
+- **Journey:** education and project development milestones.
+- **Contact:** email, LinkedIn, and GitHub links, plus a collapsible Spotify playlist player.
+
+Scroll-triggered reveals, a page progress indicator, and the hero scale effect add motion while keeping the main page content server-rendered. The visual effects respect the visitor's reduced-motion preference.
 
 ## Requirements
 
@@ -33,8 +44,4 @@ npm start
 - `app/globals.css` contains the responsive visual system and animations.
 - `components/` contains the email copy button, music player, scroll effects, and shooting star.
 - `public/` contains project preview images.
-- `PROJECT_TECHNICAL_OVERVIEW.md` explains the architecture and implementation in more detail.
-
-The Stitch export in `stitch_divyansh_dhaundiyal_portfolio_website/` is a local design reference; it is not required to install, build, or run the site and is not included in the GitHub project.
-
-The app sends baseline browser security headers from `next.config.mjs`. External project and social links that open new tabs use `noopener noreferrer`. The email copy button uses the Clipboard API where available and falls back to an email link.
+- [PROJECT_TECHNICAL_OVERVIEW.md](./PROJECT_TECHNICAL_OVERVIEW.md) explains the architecture and implementation in more detail.
