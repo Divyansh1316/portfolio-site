@@ -17,8 +17,8 @@ const skills = [
   ["Foundations & Architecture", "Logic", "Object-oriented design, algorithms, and modular systems thinking.", "DSA,OOP,Software design"],
   ["AI Tools & Integration", "AI", "Use AI tools in development and connect AI features to web applications.", "OpenAI API,AI assistants,Prompting"],
 ];
-const techTicker = "REACT · NEXT.JS · TYPESCRIPT · NODE.JS · EXPRESS · POSTGRESQL · MONGODB · OPENAI API · PYTHON · JAVA · C++ · AWS · TAILWIND CSS ·";
-const foundationTicker = "DATA STRUCTURES · REST APIS · REDIS · GIT · CI/CD · SQL · OOP ·";
+const techTicker = "REACT · NEXT.JS · TYPESCRIPT · NODE.JS · EXPRESS · POSTGRESQL · MONGODB · PYTHON · JAVA · C++ · AWS · TAILWIND CSS ·";
+const foundationTicker = "DATA STRUCTURES · GIT · SQL · OOP ·";
 const milestones = [
   ["2022–2026", "Undergraduate degree", "B.Tech Computer Science & Engineering", "Graphic Era Deemed University", "Studied algorithms, software development, databases, operating systems, and web applications."],
   ["Full-stack mastery", "Application development", "Modern Web & Backend Systems", "Independent Builds & Production Architecture", "Built web apps with Next.js and Node.js, using MongoDB or PostgreSQL to store data."],
